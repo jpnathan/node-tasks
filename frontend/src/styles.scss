@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "../node_modules/bootstrap/scss/bootstrap";
+ 
+body {
+  padding-top: 5rem;
+}
+
+.card {
+  display: inline-flex;
+  margin: 1.5rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 3px 3px 0px 0px #4a4a4a;
+  .card-title {
+    color: red
+  }
+  span {
+    padding-right: 5px
+  }
+}
+
+.card-form {
+  margin: 1.5rem;
+  border: 1px solid #4a4a4a;
+  box-shadow: 3px 3px 0px 0px #4a4a4a;
+  border-radius: 5px;
+}
+
+.form-content {
+  padding: 2em;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}

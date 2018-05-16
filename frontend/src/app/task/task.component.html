@@ -1,0 +1,7 @@
+<div class="card" style="width: 18rem;" *ngFor="let task of tasks">
+  <div class="card-body">
+    <h5 class="card-title"><strong> {{task.title}} </strong></h5>
+    <span><strong>Description</strong></span> <p class="card-text">{{task.description}}</p>
+    <span><strong>isOpen?</strong></span> <a class="card-link">{{task.isOpen}}</a>
+  </div>
+</div>
