@@ -1,0 +1,27 @@
+{
+  "name": "turbi",
+  "version": "1.0.0",
+  "description": "Development test for Turbi technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "npm",
+    "javascript",
+    "MVC",
+    "API",
+    "REST",
+    "firebase"
+  ],
+  "author": "Phillip Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.12.0",
+    "uniqid": "^4.1.1"
+  }
+}
